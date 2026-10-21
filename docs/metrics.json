@@ -1,0 +1,162 @@
+{
+  "anchors": {
+    "abc_cut_high_pct": [
+      "and {}% of cumulative value"
+    ],
+    "abc_cut_low_pct": [
+      "cut at {}% and"
+    ],
+    "churn_away_from_a_cut_pct": [
+      "against {}% of those further away"
+    ],
+    "churn_near_a_cut_pct": [
+      "a cut, {}% of items change class"
+    ],
+    "churn_ratio": [
+      "{} times the rate"
+    ],
+    "churn_removed_pct": [
+      "removes {}% of the churn"
+    ],
+    "class_changes": [
+      "quarter and {} items change class",
+      "{} class changes, and only"
+    ],
+    "coverage_line_pct": [
+      "{}% line coverage"
+    ],
+    "fixture_items": [
+      "{} items"
+    ],
+    "hand_review_moves": [
+      "{} items are moved in"
+    ],
+    "held_class_changes": [
+      "Class changes fall to\n  {}"
+    ],
+    "held_hand_review_moves": [
+      "and {} hand review moves"
+    ],
+    "hold_delay_periods": [
+      "{} of a period"
+    ],
+    "justified_pct": [
+      "{}% of the class changes"
+    ],
+    "moves_never_reflected": [
+      "never reflects {} of them"
+    ],
+    "python_min_version": [],
+    "real_tier_changes": [
+      "class; {} actually changed tier",
+      "and only {} items changed tier"
+    ],
+    "still_class_changes": [
+      "still produces {} class changes"
+    ],
+    "tests_total": [
+      "{} tests"
+    ],
+    "xyz_cut_high": [
+      "and {} in that estimate"
+    ],
+    "xyz_cut_low": [
+      "sample cut at {} and"
+    ]
+  },
+  "badge_only": [
+    "python_min_version"
+  ],
+  "checked_documents": [
+    "README.md",
+    "docs/adr/ADR-001-give-every-item-a-tier-it-keeps.md",
+    "docs/adr/ADR-002-count-the-policy-work-not-the-class-changes.md",
+    "docs/adr/ADR-003-what-a-generated-assortment-cannot-establish.md",
+    "src/axc/__init__.py",
+    "src/axc/classify.py",
+    "src/axc/cli.py",
+    "src/axc/errors.py",
+    "src/axc/generator.py",
+    "src/axc/policy.py",
+    "experiments/exp01_how_much_churn_is_real.py",
+    "experiments/exp02_where_the_churn_is.py",
+    "experiments/exp03_what_a_hold_buys.py"
+  ],
+  "formats": {
+    "abc_cut_high_pct": "{:.0f}",
+    "abc_cut_low_pct": "{:.0f}",
+    "churn_away_from_a_cut_pct": "{:.1f}",
+    "churn_near_a_cut_pct": "{:.1f}",
+    "churn_ratio": "{:.1f}",
+    "churn_removed_pct": "{:.0f}",
+    "class_changes": "{:.0f}",
+    "coverage_line_pct": "{:.2f}",
+    "fixture_items": "{:d}",
+    "hand_review_moves": "{:.0f}",
+    "held_class_changes": "{:.0f}",
+    "held_hand_review_moves": "{:.0f}",
+    "hold_delay_periods": "{:.2f}",
+    "justified_pct": "{:.1f}",
+    "moves_never_reflected": "{:.0f}",
+    "python_min_version": "{}",
+    "real_tier_changes": "{:.0f}",
+    "still_class_changes": "{:.0f}",
+    "tests_total": "{:d}",
+    "xyz_cut_high": "{:.1f}",
+    "xyz_cut_low": "{:.1f}"
+  },
+  "formatted": {
+    "abc_cut_high_pct": "95",
+    "abc_cut_low_pct": "80",
+    "churn_away_from_a_cut_pct": "27.6",
+    "churn_near_a_cut_pct": "52.1",
+    "churn_ratio": "1.9",
+    "churn_removed_pct": "78",
+    "class_changes": "805",
+    "coverage_line_pct": "100.00",
+    "fixture_items": "300",
+    "hand_review_moves": "147",
+    "held_class_changes": "177",
+    "held_hand_review_moves": "42",
+    "hold_delay_periods": "0.58",
+    "justified_pct": "8.9",
+    "moves_never_reflected": "28",
+    "python_min_version": "3.11",
+    "real_tier_changes": "108",
+    "still_class_changes": "770",
+    "tests_total": "86",
+    "xyz_cut_high": "1.0",
+    "xyz_cut_low": "0.5"
+  },
+  "generated_blocks": {
+    "README.md": [
+      "churn-table.md",
+      "boundary-table.md",
+      "hold-table.md"
+    ]
+  },
+  "metrics": {
+    "abc_cut_high_pct": 95.0,
+    "abc_cut_low_pct": 80.0,
+    "churn_away_from_a_cut_pct": 27.56714441383046,
+    "churn_near_a_cut_pct": 52.10042846247526,
+    "churn_ratio": 1.8899465131519546,
+    "churn_removed_pct": 77.95153272576636,
+    "class_changes": 804.6666666666666,
+    "coverage_line_pct": 100.0,
+    "fixture_items": 300,
+    "hand_review_moves": 146.75,
+    "held_class_changes": 177.41666666666666,
+    "held_hand_review_moves": 42.0,
+    "hold_delay_periods": 0.584440026039224,
+    "justified_pct": 8.927091963545982,
+    "moves_never_reflected": 28.083333333333332,
+    "python_min_version": 3.11,
+    "real_tier_changes": 108.25,
+    "still_class_changes": 769.8333333333334,
+    "tests_total": 86,
+    "xyz_cut_high": 1.0,
+    "xyz_cut_low": 0.5
+  },
+  "note": "every value here is read from a run: the test suite, the experiments, the committed fixture, or the project's own configuration. No figure is transcribed by hand"
+}
