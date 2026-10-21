@@ -1,0 +1,47 @@
+{
+  "abc_margins": [
+    0.02,
+    0.05,
+    0.1
+  ],
+  "comparable_margins": [
+    0.02,
+    0.05
+  ],
+  "items": 300,
+  "largest_ratio": 2.2174098040346566,
+  "note": "the churn concentrates near the cuts, which is what makes it a property of the thresholds rather than of the items. The useful part is that the distance to a cut is computable from the same data as the class, so a classification could report it and nobody does: an item three quarters of a point from the A to B line and an item in the middle of A are both reported as A, with the same policy and the same confidence",
+  "periods": 8,
+  "question": "is the churn at the thresholds or spread across the assortment",
+  "replications": 12,
+  "series": [
+    {
+      "away_from_a_cut_change_rate": 0.2756714441383046,
+      "comparable": true,
+      "items_away_from_a_cut": 168.32142857142858,
+      "items_near_a_cut": 131.67857142857142,
+      "margin": 0.02,
+      "near_a_cut_change_rate": 0.5210042846247526,
+      "ratio": 1.8899465131519546
+    },
+    {
+      "away_from_a_cut_change_rate": 0.18433476949827268,
+      "comparable": true,
+      "items_away_from_a_cut": 34.09523809523813,
+      "items_near_a_cut": 265.90476190476187,
+      "margin": 0.05,
+      "near_a_cut_change_rate": 0.4087457251099384,
+      "ratio": 2.2174098040346566
+    },
+    {
+      "away_from_a_cut_change_rate": null,
+      "comparable": false,
+      "items_away_from_a_cut": 0.47619047619042476,
+      "items_near_a_cut": 299.5238095238096,
+      "margin": 0.1,
+      "near_a_cut_change_rate": 0.3823228865843866,
+      "ratio": null
+    }
+  ],
+  "transition_rate": 0.05
+}

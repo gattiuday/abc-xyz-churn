@@ -1,0 +1,55 @@
+{
+  "headline": {
+    "changes_with_a_real_move_behind_them": 71.83333333333333,
+    "class_changes": 804.6666666666666,
+    "class_changes_per_item_per_period": 0.38317460317460317,
+    "hand_review_moves": 146.75,
+    "justified_share": 0.08927091963545981,
+    "real_tier_changes": 108.25,
+    "transition_rate": 0.05
+  },
+  "headline_transition_rate": 0.05,
+  "items": 300,
+  "note": "a class is a rank against the rest of the assortment, cut at thresholds nobody derived, computed from an estimate of variability. All three move between periods without the item moving, and the result is that most of what a quarterly reclassification produces is not a change in the item. The row at a transition rate of zero is the control: every class change there is noise by construction and there are nearly as many of them",
+  "periods": 8,
+  "question": "of the items that change class each quarter, how many actually changed",
+  "replications": 12,
+  "series": [
+    {
+      "changes_with_a_real_move_behind_them": 0.0,
+      "class_changes": 769.8333333333334,
+      "class_changes_per_item_per_period": 0.36658730158730163,
+      "hand_review_moves": 107.91666666666667,
+      "justified_share": 0.0,
+      "real_tier_changes": 0.0,
+      "transition_rate": 0.0
+    },
+    {
+      "changes_with_a_real_move_behind_them": 34.666666666666664,
+      "class_changes": 776.0833333333334,
+      "class_changes_per_item_per_period": 0.3695634920634921,
+      "hand_review_moves": 122.5,
+      "justified_share": 0.044668742617846015,
+      "real_tier_changes": 52.666666666666664,
+      "transition_rate": 0.025
+    },
+    {
+      "changes_with_a_real_move_behind_them": 71.83333333333333,
+      "class_changes": 804.6666666666666,
+      "class_changes_per_item_per_period": 0.38317460317460317,
+      "hand_review_moves": 146.75,
+      "justified_share": 0.08927091963545981,
+      "real_tier_changes": 108.25,
+      "transition_rate": 0.05
+    },
+    {
+      "changes_with_a_real_move_behind_them": 143.08333333333334,
+      "class_changes": 840.6666666666666,
+      "class_changes_per_item_per_period": 0.4003174603174603,
+      "hand_review_moves": 181.91666666666666,
+      "justified_share": 0.17020222045995242,
+      "real_tier_changes": 211.91666666666666,
+      "transition_rate": 0.1
+    }
+  ]
+}

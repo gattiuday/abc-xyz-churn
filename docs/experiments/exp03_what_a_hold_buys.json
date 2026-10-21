@@ -1,0 +1,41 @@
+{
+  "churn_removed_share": 0.7795153272576636,
+  "delay_cost_periods": 0.584440026039224,
+  "holds": [
+    1,
+    2,
+    3
+  ],
+  "items": 300,
+  "note": "a two period hold removes most of the churn and costs a fraction of a period of delay on the moves that are real. That is a good trade and it is not a free one, which is the reason to measure both columns. What it does not do is make the classification right: the items whose class is noise are still assigned a class, and the hold only stops that assignment changing every quarter",
+  "periods": 8,
+  "question": "what does holding a class for a period cost, and what does it remove",
+  "replications": 12,
+  "series": [
+    {
+      "class_changes": 804.6666666666666,
+      "hand_review_moves": 146.75,
+      "hold_periods": 1,
+      "mean_delay_on_a_real_move_periods": 0.0,
+      "real_moves": 108.25,
+      "real_moves_never_reflected": 0.0
+    },
+    {
+      "class_changes": 177.41666666666666,
+      "hand_review_moves": 42.0,
+      "hold_periods": 2,
+      "mean_delay_on_a_real_move_periods": 0.584440026039224,
+      "real_moves": 108.25,
+      "real_moves_never_reflected": 28.083333333333332
+    },
+    {
+      "class_changes": 77.5,
+      "hand_review_moves": 22.083333333333332,
+      "hold_periods": 3,
+      "mean_delay_on_a_real_move_periods": 0.796576207651075,
+      "real_moves": 108.25,
+      "real_moves_never_reflected": 43.75
+    }
+  ],
+  "transition_rate": 0.05
+}
